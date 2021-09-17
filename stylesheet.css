@@ -1,0 +1,544 @@
+body {
+    margin: 0px;
+}
+
+#body_header {
+    height: 64vh;
+    opacity: 0.8;
+    background-image: url("file:///D:/OneDrive/Documents/portfolio/images/headerimage.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 8px 8px 8px 0px;
+}
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgray;
+    border-bottom: 1px solid white;
+}
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.social-icons li a i {
+    padding: 10px;
+    font-size: 1.6rem;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgb(230,196,196,0.3);
+}
+
+.social-icons-img {
+    height: 1.6rem;
+    width: 1.6rem;
+}
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -16vh;
+}
+
+#my-image img {
+    height: 100%;
+    widows: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 9px 9px rgb(230,196,196,0.3);
+    border: 0.1rem solid white;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+/* ------------section -----------*/
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n) {
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n+1) {
+    background-color: white;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+/* ----------skills section --------------*/
+.skill-display {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.skill-progress {
+    width: 7rem;
+    height: 1.4rem;
+    background-color: lightgray;
+    border-radius: 0.8rem;
+    border: 2px solid black;
+    margin-bottom: 12px;
+}
+
+.skill-progress>div {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.mb-blue {
+    background-color: #2875a4;
+}
+
+.mb-blue1 {
+    background-color: #106ca5;
+}
+
+.mb-blue2 {
+    background-color: #076aa7;
+}
+
+.mb-orange {
+    background-color: #ff8000;
+}
+
+.mb-css {
+    background-color: #862d59;
+}
+
+.mb-js {
+    background-color: #33cc33;
+}
+
+.mb-dsa {
+    background-color: #00e6b8;
+}
+
+.skill-name span {
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+/* percentage classes*/
+.eighty-five-percent {
+    width: 85%;
+    height: inherit;
+}
+
+.eighty-percent {
+    width: 80%;
+    height: inherit;
+}
+
+.fourty-five-percent {
+    width: 45%;
+    height: inherit;
+}
+
+.seventy-percent {
+    width: 70%;
+    height: inherit;
+}
+
+.fourty-percent {
+    width: 40%;
+    height: inherit;
+}
+
+/*-----eduction-------*/
+.timeline {
+    position: relative;
+    width: 75%;
+    padding-bottom: 10px;
+}
+
+.timeline-box {
+    padding: 5px;
+    width: 40%;
+    min-height: 150px;
+    position: relative;
+    left: 5%;
+    text-align: right;
+}
+
+.timeline-box::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    right: -11.8%;
+}
+
+.timeline-box:nth-child(2n)::after {
+    left: -9%;
+}
+
+.timeline-container {
+    padding: 8px;
+}
+
+.degree {
+    font-size: 1.4rem;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.institute-name {
+    margin: 5px 0 0;
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.course-duration {
+    color: #9e9b9b;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.description {
+    font-size: 14px;
+    padding: 2px;
+    color: grey;
+    line-height: 20px;
+}
+
+/*---------timeline----------*/
+#timeline-divider {
+    position: absolute;
+    width: 0;
+    top: 10%;
+    left: 50%;
+    border: 1px dashed #0096fa6b;
+    height: 66%;
+    color: #433E3F;
+}
+
+#timeline-divider .timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+
+#timeline-divider i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: #2857a4;
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 0.8rem;
+}
+
+.timeline-logo > img {
+    width: 100%;
+}
+
+/* Common Text Align Classes */
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* setting background-color */
+.m-blue {
+    color: #2857a4;
+}
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+.mb-orange {
+    background-color: #ec4d1c;
+}
+
+.mb-teal {
+    background-color: #0b8176;
+}
+
+.mb-light-purple {
+    background-color: #93738c;
+}
+
+/*-----------project-------------*/
+/*------------contact---------*/
+.mb50px {
+    margin-bottom: 50px;
+}
+
+#contact {
+    background-color: pink;
+    background-image: url("file:///D:/OneDrive/Documents/portfolio/images/contactbar%20image.jpg");
+    color: white;
+    padding-bottom: 40px;
+}
+
+#contact h1, #contact h1 span {
+    color: white;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+#contact-form input, textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+#contact .social-icons li a i {
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+.gml {
+    color: #d9dcdd;
+    text-decoration: none;
+}
+
+.gml:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*-------------viewport--------------*/
+@media screen and (max-width: 600px) {
+    #timeline-divider {
+        left: 1%;
+    }
+
+    .timeline-box {
+        left: 10% !important;
+        width: 85%;
+    }
+
+    .timeline-box::after {
+        left: -13% !important;
+    }
+
+    html {
+        font-size: 15px;
+    }
+
+    .timeline-logo {
+        width: 30px;
+    }
+
+    .degree {
+        font-size: 1.2rem;
+    }
+
+    .institute-name {
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    #my-image {
+        height: 10rem;
+        width: 10rem;
+        margin-top: -14vh;
+    }
+
+    #my-name {
+        font-size: 2.5rem;
+        letter-spacing: 0.1rem;
+        font-weight: 600;
+        margin-bottom: 0.4rem;
+    }
+
+    #about-para {
+        line-height: 22px;
+        font-weight: 70;
+        font-size: 1rem;
+    }
+
+    #contact-form {
+        margin-left: 0%;
+    }
+
+    #contact-container {
+        flex-wrap: wrap;
+    }
+
+    #my-details-container {
+        width: 80%;
+        margin: 10%;
+    }
+
+    #contact-form-container {
+        width: 80%;
+        margin: 10%;
+    }
+
+    #body_header {
+        height: 55vh;
+    }
+
+    #my-image {
+        margin-top: -12vh;
+    }
+}
