@@ -6,7 +6,7 @@ body {
     height: 64vh;
     opacity: 0.8;
     background-image: url("https://github.com/Msaroj123/Msaroj123.github.io/blob/main/images/unnamed.jpg?raw=true");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-attachment: fixed;
     padding-top: 1.2rem;
