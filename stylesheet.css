@@ -115,7 +115,7 @@ section:nth-child(2n) {
 }
 
 section:nth-child(2n+1) {
-    background-color: white;
+    background-color: rgb(184, 207, 207);
 }
 
 .section-heading {
@@ -263,7 +263,7 @@ section:nth-child(2n+1) {
 
 .institute-name {
     margin: 5px 0 0;
-    color: #eb822d;
+    color:  #f01212;
     font-weight: 400;
     font-size: 1.2rem;
 }
@@ -277,7 +277,7 @@ section:nth-child(2n+1) {
 .description {
     font-size: 14px;
     padding: 2px;
-    color: grey;
+    color: rgb(85, 34, 204);
     line-height: 20px;
 }
 
