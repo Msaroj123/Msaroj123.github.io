@@ -364,7 +364,7 @@ section:nth-child(2n+1) {
 }
 
 #contact h1, #contact h1 span {
-    color: white;
+    color: black;
 }
 
 #contact-form {
@@ -392,7 +392,7 @@ section:nth-child(2n+1) {
 
 .my-details-info-container {
     margin-bottom: 20px;
-    color: #d9dcdd;
+    color: black;
     font-size: 1rem;
 }
 
@@ -401,7 +401,7 @@ section:nth-child(2n+1) {
 }
 
 .my-details-info-container i {
-    color: white;
+    color: black;
 }
 
 .my-details-icon {
