@@ -7,7 +7,7 @@ body {
     opacity: 0.8;
     background-image: url("https://github.com/Msaroj123/Msaroj123.github.io/blob/main/images/unnamed.jpg?raw=true");
     background-size: cover;
-    background-position: middle;
+    background-position: center;
     background-attachment: fixed;
     padding-top: 1.2rem;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .horizontal-list li a {
-    color: white;
+    color: red;
     text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ body {
 #my-name {
     font-size: 3rem;
     letter-spacing: 0.1rem;
-    color: white;
+    color: black;
     font-weight: 700;
     margin-bottom: 0.2rem;
 }
@@ -96,7 +96,7 @@ body {
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    color: grey;
+    color: black;
     line-height: 28px;
     font-weight: 100;
     font-size: 1.1rem;
