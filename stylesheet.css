@@ -24,11 +24,11 @@ body {
 
 .horizontal-list li {
     display: inline-block;
-    margin: 8px 8px 8px 0px;
+    margin: 10px 10px 10px 0px;
 }
 
 .horizontal-list li a {
-    color: green;
+    color: yellow;
     text-decoration: none;
 }
 
