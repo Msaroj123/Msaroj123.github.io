@@ -269,7 +269,7 @@ section:nth-child(2n+1) {
 }
 
 .course-duration {
-    color: #9e9b9b;
+    color: #0f0606;
     font-weight: 100;
     font-size: 1rem;
 }
@@ -358,7 +358,7 @@ section:nth-child(2n+1) {
 
 #contact {
     background-color: pink;
-    background-image: url("https://github.com/Msaroj123/Msaroj123.github.io/blob/main/images/contactbar%20image.jpg?raw=true");
+    background-image: url("https://github.com/Msaroj123/Msaroj123.github.io/blob/main/images/jh.jpg?raw=true");
     color: white;
     padding-bottom: 40px;
 }
