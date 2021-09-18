@@ -140,7 +140,7 @@ section:nth-child(2n+1) {
 .skill-progress {
     width: 7rem;
     height: 1.4rem;
-    background-color: lightgray;
+    background-color:  rgb(178, 194, 135);
     border-radius: 0.8rem;
     border: 2px solid black;
     margin-bottom: 12px;
