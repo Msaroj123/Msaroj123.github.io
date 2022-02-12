@@ -464,6 +464,15 @@ input:focus, select:focus, textarea:focus, button:focus {
     color: red;
     text-decoration: none;
 }
+#footer{
+    width: 100%;
+    background:white;
+
+    text-align:center;
+    font-size:0.6em;
+    text-transform: uppercase;
+    overflow: hidden;
+}
 
 /*-------------viewport--------------*/
 @media screen and (max-width: 600px) {
@@ -541,14 +550,6 @@ input:focus, select:focus, textarea:focus, button:focus {
     #my-image {
         margin-top: -12vh;
     }
-    #footer{
-    width: 100%;
-    background:white;
-
-    text-align:center;
-    font-size:0.6em;
-    text-transform: uppercase;
-    overflow: hidden;
-}
+    
         
 }
