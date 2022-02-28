@@ -14,6 +14,7 @@
     </head>
 
     <body>
+        <div id="preloader"></div>
        <header id="body_header">
            <nav>
                <ul class="horizontal-list text-center nav-menu">
@@ -216,7 +217,7 @@
                         <i class="far fa-envelope"></i>
                          <a class="gml" href="mailto:sk2341@ece.jgec.ac.in" ><span>sk2341@ece.jgec.ac.in</span></a>
                         <footer>
-<span>Created By <a href="https://msaroj123.github.io/#">Saroj Kumar Manna</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+<span><div>Created By <a href="https://msaroj123.github.io/#">Saroj Kumar Manna</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
 </footer>
                     </div>
                 </div>
@@ -230,5 +231,14 @@
           
            
        </main>
+
+
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
+        loader.style.display ="none";
+    })
+</script>
+
     </body>
 </html>
